@@ -1,0 +1,33 @@
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+    padding: 15px;
+
+}
+.fill{
+    color: aqua;
+}
+.right{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    left: 220px;
+    gap: 20px;
+
+}
+.zero
+{
+    position: relative;
+    left: -270px;
+}
+.parent
+{
+    display: flex;
+}
+.images
+{
+    position: relative;
+    left: 200px;
+
+}

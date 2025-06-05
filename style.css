@@ -41,3 +41,53 @@ p:hover{
     top:80px;
     left: 280px;
 }
+.display{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.flex-container{
+    display: flex;
+    justify-content:flex-start;
+    /*background-color: burlywood;
+    border: 2px solid black;*/
+    padding: 15px;
+    height: 100vh;
+    align-items:flex-start;
+
+}
+.items{
+    /*background-color: aqua;
+    border: 2px solid black;*/
+    height: 100px;
+    width: 100px;
+}
+.flex-container div{
+    /*background-color: blueviolet;
+    border: 2px solid black;*/
+    height: 100px;
+    width: 100px;
+}
+.two{
+    /*flex-grow: 2;*/
+    flex-shrink: 0;
+}
+.grid-container{
+    display: grid;
+    /*grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px 50px;*/
+    grid-template: 50px 50px 50px/50px 50px 50px 50px;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.grid-container div{
+    border: 2px solid black;
+}
+.one
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
