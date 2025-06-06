@@ -11,6 +11,20 @@
     <a href="table.html"target="_self">Table page</a>
     <br>
     <a href="form.html"target="_self">Form page</a>
-    <video src="breaking_bad.mp4" controls width="200" height="200"></video>
+    <!-- <video src="breaking_bad.mp4" controls width="200" height="200"></video> -->
+    <script>
+        console.log('hello');
+        console.log(5==='5');
+        console.log(5=='5');
+    </script>
+    <input type="text" id="name">
+    <button onclick=showName()>Click</button>
+    <h1 id="result"></h1>
+    <script>
+        function showName(){
+            const name=document.getElementById('name').value
+            document.getElementById('result').innerText=`Hello ${name}`
+        }
+    </script>
 </body>
 </html>
